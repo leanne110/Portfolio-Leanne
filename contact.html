@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leanne's Portfolio</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="mobile-header">
+        <div class="name-header">L.H</div>
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="index.html">About Me</a>
+            </li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button type="hamburger" class="btn-hamburger">
+          <img src="./img/hamburger.svg" alt="hamburger menu" />
+        </button>
+      </div>
+      <nav class="mobile-menu">
+        <ul>
+          <li>
+            <a href="index.html">About Me</a>
+          </li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact-form">
+        <h2>Contact</h2>
+        <p>Have any questions? Text me!</p>
+        <form class="form" action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="10" required></textarea>
+          <div class="btn-container">
+            <button type="submit" class="btn-send">Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <section class="social-media">
+      <h2>Leanne110x@gmail.com</h2>
+      <a href="https://github.com/leanne110" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/ningyan-huang-82ba691a9/"
+        target="_blank"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </section>
+    <footer><p>© 2025 Leanne Huang. All rights reserved.</p></footer>
+  </body>
+</html>
